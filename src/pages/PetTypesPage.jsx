@@ -1,7 +1,15 @@
 // Pet Types Page
 
+// Import Components
+import NavBar from "../components/NavBar";
+
 function PetTypesPage() {
-  return <div>Pet Types Page</div>;
+  return (
+    <div>
+      <NavBar />
+      <h1>Pets Types Page</h1>
+    </div>
+  );
 }
 
 export default PetTypesPage;
