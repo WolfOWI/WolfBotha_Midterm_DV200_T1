@@ -1,5 +1,8 @@
 // Navigation Bar
 
+// Import Link (for page navigation)
+import { Link } from "react-router-dom";
+
 function NavBar() {
   return (
     <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800">
@@ -8,9 +11,14 @@ function NavBar() {
         aria-label="Global"
       >
         <div class="flex items-center justify-between">
-          <a class="flex-none text-xl font-semibold dark:text-white" href="#">
-            Brand
-          </a>
+          <Link to="/">
+            <img
+              src="#"
+              alt="logo"
+              class="flex-none text-xl font-semibold dark:text-white"
+              href="#"
+            />
+          </Link>
           <div class="sm:hidden">
             <button
               type="button"
@@ -55,25 +63,28 @@ function NavBar() {
         </div>
         <div id="navbar-with-collapse" class="hidden basis-full grow sm:block">
           <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
-            <a
+            <Link
+              to="/"
               class="font-medium text-blue-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               href="#"
               aria-current="page"
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link
+              to="/types"
               class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               href="#"
             >
               Types
-            </a>
-            <a
+            </Link>
+            <Link
+              to="/charts"
               class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               href="#"
             >
               Charts
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

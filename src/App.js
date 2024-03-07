@@ -1,11 +1,24 @@
+// Import Router
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// Import Pages
+import HomePage from "./pages/HomePage";
+import PetChartsPage from "./pages/PetChartsPage";
+import PetTypesPage from "./pages/PetTypesPage";
+
 // Import components
-import NavBar from "./components/NavBar";
+// import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div>
-      <NavBar />
-      <h1 className="">Hey</h1>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/types" element={<PetTypesPage />} />
+          <Route path="/charts" element={<PetChartsPage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
