@@ -15,11 +15,7 @@ function NavBar() {
       >
         <div class="flex items-center justify-between">
           <Link to="/">
-            <img
-              src={guineaPigLogo}
-              alt="Paws Guinea Pig logo"
-              class="flex-none text-xl font-semibold w-16"
-            />
+            <img src={guineaPigLogo} alt="Paws Guinea Pig logo" class=" w-16" />
           </Link>
           <div class="sm:hidden">
             <button
