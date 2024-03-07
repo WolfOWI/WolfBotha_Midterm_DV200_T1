@@ -1,5 +1,8 @@
 // Navigation Bar
 
+// Import Assets
+import guineaPigLogo from "../assets/logo/guineaPigLogo.svg";
+
 // Import Link (for page navigation)
 import { Link } from "react-router-dom";
 
@@ -13,10 +16,9 @@ function NavBar() {
         <div class="flex items-center justify-between">
           <Link to="/">
             <img
-              src="#"
-              alt="logo"
-              class="flex-none text-xl font-semibold dark:text-white"
-              href="#"
+              src={guineaPigLogo}
+              alt="Paws Guinea Pig logo"
+              class="flex-none text-xl font-semibold w-16"
             />
           </Link>
           <div class="sm:hidden">

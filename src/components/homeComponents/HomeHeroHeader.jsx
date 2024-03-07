@@ -3,6 +3,9 @@
 // Import Link for navigation
 import { Link } from "react-router-dom";
 
+// Import Icons
+import PetsRoundedIcon from "@mui/icons-material/PetsRounded";
+
 function HomeHeroHeader() {
   return (
     <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
@@ -25,20 +28,7 @@ function HomeHeroHeader() {
               href="#"
             >
               Pet Types
-              <svg
-                class="flex-shrink-0 size-4"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="m9 18 6-6-6-6" />
-              </svg>
+              <PetsRoundedIcon fontSize="small" />
             </Link>
             <Link
               to="/charts"
