@@ -1,7 +1,7 @@
 // Pet Charts Page
 
 // Chart JS Import
-import { Chart as ChartJS, defaults } from "chart.js/auto";
+import { Chart as ChartJS } from "chart.js/auto";
 import { Bar, Line, Doughnut, PolarArea, Pie } from "react-chartjs-2";
 
 // Import Components

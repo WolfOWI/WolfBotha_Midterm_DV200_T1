@@ -2,8 +2,7 @@
   "labels": ["January", "February", "March", "April", "May"],
   "datasets": [
     {
-      "label": "Pets Adopted",
-      "data": [5425, 6424, 2312, 6653, 8315],
+      "data": [3425, 6424, 2312, 6653, 8315],
       "backgroundColor": [
         "rgba(255, 99, 132, 0.2)",
         "rgba(54, 162, 235, 0.2)",

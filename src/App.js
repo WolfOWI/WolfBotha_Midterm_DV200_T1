@@ -6,9 +6,6 @@ import HomePage from "./pages/HomePage";
 import PetChartsPage from "./pages/PetChartsPage";
 import PetTypesPage from "./pages/PetTypesPage";
 
-// Import components
-// import NavBar from "./components/NavBar";
-
 function App() {
   return (
     <div>
