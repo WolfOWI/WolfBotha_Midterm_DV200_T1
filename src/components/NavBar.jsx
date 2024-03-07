@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800">
+    <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4">
       <nav
         class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
         aria-label="Global"
@@ -63,7 +63,7 @@ function NavBar() {
           <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
             <Link
               to="/"
-              class="font-medium text-blue-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+              class="font-medium  text-gray-600 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               href="#"
               aria-current="page"
             >

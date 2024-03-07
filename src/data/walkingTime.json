@@ -1,0 +1,12 @@
+{
+  "labels": ["Mon", "Tues", "Wed", "Thur", "Fri"],
+  "datasets": [
+    {
+      "label": "Minutes",
+      "data": [32, 45, 20, 52, 60],
+      "backgroundColor": "rgb(75, 192, 192)",
+      "borderColor": "rgb(75, 192, 192)",
+      "tension": 0.1
+    }
+  ]
+}
