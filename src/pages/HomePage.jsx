@@ -2,12 +2,13 @@
 
 // Import Components
 import NavBar from "../components/NavBar";
+import HomeHeroHeader from "../components/homeComponents/HomeHeroHeader";
 
 function HomePage() {
   return (
     <div>
       <NavBar />
-      <h1>Home Page</h1>
+      <HomeHeroHeader />
     </div>
   );
 }
